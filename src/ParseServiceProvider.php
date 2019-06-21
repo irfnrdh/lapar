@@ -1,27 +1,12 @@
 <?php
 
-/*
- * This file is part of Laravel Parse.
- *
- * (c) Graham Campbell <graham@alt-three.com>
- * (c) Prosper Otemuyiwa <prosperotemuyiwa@gmail.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace LaravelParse\Parse;
+namespace irfnrdh\laper;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
 use Parse\ParseClient;
 
-/**
- * This is the parse service provider class.
- *
- * @author Graham Campbell <graham@alt-three.com>
- */
 class ParseServiceProvider extends ServiceProvider
 {
     /**
