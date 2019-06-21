@@ -27,7 +27,7 @@
         "php": ">=7.1.3",
         "illuminate/contracts": "5.8.*",
         "illuminate/support": "5.8.*",
-        "parse/php-sdk": "^1.4.*"
+        "parse/php-sdk": "1.5.*"
     },
     "require-dev": {
         "graham-campbell/testbench": "^3.1",
