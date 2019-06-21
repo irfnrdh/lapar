@@ -1,0 +1,56 @@
+{
+    "name": "irfnrdh/lapar",
+    "description": "Lapar Is A Laravel + Parse SDK Bridge For Laravel 5.8",
+    "keywords": [
+        "laravel",
+        "framework",
+        "parse",
+        "parse-sdk",
+        "parse sdk",
+        "ParseSDK",
+        "parse bridge",
+        "parse sdk bridge",
+        "bridge",
+        "Parse",
+        "Laravel Parse",
+        "Laravel-Parse",
+        "LaravelParse"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Irfannur Diah",
+            "email": "kangfand@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "illuminate/contracts": "5.8.*",
+        "illuminate/support": "5.8.*",
+        "parse/php-sdk": "^1.4.*"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "^3.1",
+        "phpunit/phpunit": "^4.8|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "irfnrdh\\lapar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "irfnrdh\\Tests\\lapar\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
